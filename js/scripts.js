@@ -15,11 +15,15 @@ $(document).ready(function() {
       }
 
       else if (result <= 7 && result <= 10) {
+        $("#python").slideToggle();
+        $(".quizForm").hide();
 
       }
       else if (result >= 10 && result <= 15) {
-
+        $("#js").slideToggle();
+        $(".quizForm").hide();
       }
+
     $('#retake').click(function(){
       location.reload();
     })
