@@ -1,0 +1,35 @@
+.receipt {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 70px;
+  background: -webkit-linear-gradient(#46eefa, #d16ba5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+.form-control {
+  padding-bottom: 10px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 45;
+  background-image: url(/assets/f4073219effe702574b2f479cd4e7375.png);
+
+}
+
+.well {
+  min-height: 10em;
+  vertical-align: middle;
+}
