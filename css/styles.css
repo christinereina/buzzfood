@@ -1,7 +1,17 @@
 .container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  scroll-padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -18,7 +28,7 @@ h3 {
 
 
 img {
-  width: auto;
+  width: 200px;
   height: 200px;
 }
 
@@ -26,15 +36,22 @@ img {
   background-color: red;
   color: aliceblue;
   font-family: 'Fredoka One', cursive;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-bottom: 20px;
 }
 
 .radio {
   padding-bottom: 50px;
+text-align: center;
 }
 
 .radio input[type="radio"] {
   margin-left: 20px;
+}
+
+.btn {
+  font-size: 24px;
 }
