@@ -82,3 +82,8 @@ text-align: center;
 .no-show {
   display: none;
 }
+
+p {
+  text-align: center;
+  padding-bottom: 20px;
+}

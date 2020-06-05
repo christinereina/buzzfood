@@ -24,7 +24,7 @@ $(document).ready(function() {
         $(".quizForm").hide();
       }
 
-    $('#retake').click(function(){
+    $('.retake').click(function(){
       location.reload();
     })
   });
