@@ -12,16 +12,13 @@ h1 {
 }
 
 h3 {
+  font-size: 30px;
+  text-align: center;
 }
 
-body {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  font-size: 45;
-}
 
 img {
-  width: 200px;
+  width: auto;
   height: 200px;
 }
 
