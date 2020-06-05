@@ -1,35 +1,43 @@
-.receipt {
-  display: none;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   text-align: center;
   font-family: 'Fredoka One', cursive;
   font-size: 70px;
-  background: -webkit-linear-gradient(#46eefa, #d16ba5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent
+  padding-bottom: 20px;
 }
 
-h2 {
-  font-size: 25px;
-  text-align: center;
-  font-family: 'Fredoka One', cursive;
-}
-
-.form-control {
-  padding-bottom: 10px;
+h3 {
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   font-size: 45;
-  background-image: url(/assets/f4073219effe702574b2f479cd4e7375.png);
+}
 
+img {
+  width: 200px;
+  height: 200px;
 }
 
 .well {
-  min-height: 10em;
-  vertical-align: middle;
+  background-color: red;
+  color: aliceblue;
+  font-family: 'Fredoka One', cursive;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.radio {
+  padding-bottom: 50px;
+}
+
+.radio input[type="radio"] {
+  margin-left: 20px;
 }
