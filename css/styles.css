@@ -18,7 +18,7 @@ h1 {
   text-align: center;
   font-family: 'Fredoka One', cursive;
   font-size: 70px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -79,11 +79,6 @@ text-align: center;
   font-size: 18px;
 }
 
-.no-show {
-  display: none;
-}
-
 p {
   text-align: center;
-  padding-bottom: 20px;
 }
