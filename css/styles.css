@@ -72,8 +72,13 @@ text-align: center;
 
 #ruby, #python, #js {
   text-align: center;
+  display: none;
 }
 
 #retake {
   font-size: 18px;
+}
+
+.no-show {
+  display: none;
 }
