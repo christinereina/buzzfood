@@ -14,13 +14,13 @@ $(document).ready(function() {
         $(".quizForm").hide();
       }
 
-      else if (result <= 7 && result <= 10) {
-        $("#python").slideToggle();
+      else if (result === 7 || result < 10) {
+        $("#python").fadeToggle();
         $(".quizForm").hide();
-
       }
-      else if (result >= 10 && result <= 15) {
-        $("#js").slideToggle();
+
+      else if (result === 10 || result < 16) {
+        $("#js").toggle();
         $(".quizForm").hide();
       }
 
