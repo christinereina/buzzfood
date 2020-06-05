@@ -22,7 +22,10 @@ $(document).ready(function() {
       else if (result === 10 || result < 16) {
         $("#js").toggle();
         $(".quizForm").hide();
-      }
+
+    } else {
+      alert("please fill out all quiz answers first - buzzfood")
+    }
 
     $('.retake').click(function(){
       location.reload();
