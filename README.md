@@ -4,15 +4,19 @@
 
 #### By _**Christine Augustine**_
 
----
+ⓟⓡⓞⓖⓡⓐⓜⓜⓘⓝⓖ ⓠⓤⓘⓩ
+
+꘎♡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━♡꘎
 
 ## Description
----
+
+꘎♡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━♡꘎
+
 Take my buzzfood quiz to see which programming language is ideal for you!
 
 ## Setup/Installation Requirements
 
----
+꘎♡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━♡꘎
 
 Clone my github repository from your computer's Terminal (make sure you are on your Desktop)
 
@@ -21,7 +25,7 @@ Clone my github repository from your computer's Terminal (make sure you are on y
 
 Open folder and drag/drop the index.html file into your preferred web browser
 
----
+꘎♡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━♡꘎
 
 Alternatively, you can also take my quiz by clicking [here](https://github.com/christinereina/buzzfood.git)
 
@@ -29,21 +33,24 @@ Lastly, enjoy my quiz!
 
 ## Known Bugs
 
----
+꘎♡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━♡꘎
 
 n/a
 
 ## Support and contact details
 
----
+꘎♡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━♡꘎
 
 Feel free to say hello! Additionally, if you have any questions, suggestions and/or feedback, please don't hesitate to contact me. 
 
 Christine Augustine's email:
 _codechristin3@gmail.com_
 
+
+
 ## Technologies Used
----
+
+꘎♡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━♡꘎
 * _Markdown_
 * _Git_
 * _HTML_
