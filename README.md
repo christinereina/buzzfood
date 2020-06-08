@@ -1,4 +1,4 @@
-_[Buzzfood Quiz](https://christinereina.github.io/buzzfood/)_
+# _[Buzzfood Quiz](https://christinereina.github.io/buzzfood/)_
 
 #### Epicodus:: Week Two:: JavaScript & jQuery Indepedent Project:: 06.05.2020
 
