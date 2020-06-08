@@ -10,7 +10,7 @@ _[Buzzfood Quiz](https://christinereina.github.io/buzzfood/)_
 
 So you wanna be a programmer? Already a programmer and interested in a new language?
 
-_Take this Buzzfood quiz to see which programming language is for you!_
+_Take this Buzzfoodgi quiz to see which programming language is for you!_
 
 ---
 
