@@ -1,128 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/bootstrap.css" rel="stylesheet" type = "text/css">
-  <link href="css/styles.css" rel="stylesheet" type = "text/css">
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fredoka+One&family=Lato&family=Raleway&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="./assets/buzzfood.png" type="image/x-icon">
-  <title>Quiz | Ideal Programming Language </title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type = "text/css">
+    <link href="css/styles.css" rel="stylesheet" type = "text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fredoka+One&family=Lato&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/buzzfood.png" type="image/x-icon">
+    <title>Quiz | Ideal Programming Language </title>
+  </head>
   <body>
-<!-- navbar -->
-<nav class="navbar navbar-default">
-  <ul class="nav navbar-nav">
-    <li class="active"><a href="#"><span id="buzzfood">B u z z f o o d</span></a></li>
-    <li><a href="#">Quizzes</span></a></li>
-    <li><a href="#">Newsworthy</span></a></li>
-    <li><a href="#">Videos</span></a></li>
-    <li><a href="#">Shopping</span></a></li>
-    <li><a href="#">Tasty</span></a></li>
-    <li><a href="#"><span id="blm">Black Lives Matter</span></a></li>
-    <li><a href="#"><span id="pride">Pride 2020</span></a></li>
-</ul>
-</nav>
-<!-- end of nav bar -->
+    <!-- navbar -->
+    <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><span id="buzzfood">B u z z f o o d</span></a></li>
+        <li><a href="#">Quizzes</span></a></li>
+        <li><a href="#">Newsworthy</span></a></li>
+        <li><a href="#">Videos</span></a></li>
+        <li><a href="#">Shopping</span></a></li>
+        <li><a href="#">Tasty</span></a></li>
+        <li><a href="#"><span id="blm">Black Lives Matter</span></a></li>
+        <li><a href="#"><span id="pride">Pride 2020</span></a></li>
+      </ul>
+    </nav>
+    <!-- end of nav bar -->
     <div class="row">
       <div class="col-md-9">
-    <h1>This Quiz Will Reveal Your Ideal Programming Language</h1>
+        <h1>This Quiz Will Reveal Your Ideal Programming Language</h1>
+      </div>
     </div>
-  </div>
     <div class="container">
-    <div class="quizForm">
-      <p>So you wanna be a <strong>programmer</strong>? Already a programmer and <em>interested</em> in a new language?</p> <p>Take our quiz to see which programming language is for you!</p>
-    <form id="quiz">
-      <div id="question1">
-        <div class="well"><h3>Which one do you use?</h3></div>
-      <div class="radio">
-        <input type="radio" name="q1" value="1"><label><img src="./assets/mac.jpg"/></label>
-        <input type="radio" name="q1" value="2"><label><img src="./assets/windows.png"/></label>
-        <input type="radio" name="q1" value="3"><label><img src="./assets/linux.jpg"/></label>
+      <div class="quizForm">
+        <p>So you wanna be a <strong>programmer</strong>? Already a programmer and <em>interested</em> in a new language?</p>
+        <p>Take our quiz to see which programming language is for you!</p>
+        <form id="quiz">
+          <div id="question1">
+            <div class="well">
+              <h3>Which one do you use?</h3>
+            </div>
+            <div class="radio">
+              <input type="radio" name="q1" value="1"><label><img src="./assets/mac.jpg"/></label>
+              <input type="radio" name="q1" value="2"><label><img src="./assets/windows.png"/></label>
+              <input type="radio" name="q1" value="3"><label><img src="./assets/linux.jpg"/></label>
+            </div>
+          </div>
+          <div id="question2">
+            <div class="well">
+              <h3>What's currently on your TV?</h3>
+            </div>
+            <div class="radio">
+              <input type="radio" name="q2" value="1"><label><img src="./assets/mirror.png"/></label>
+              <input type="radio" name="q2" value="2"><label><img src="./assets/valley.jpg"/></label>
+              <input type="radio" name="q2" value="3"><label><img src="./assets/robot.jpg"/></label>
+            </div>
+          </div>
+          <div id="question3">
+            <div class="well">
+              <h3>What motivated you to become a developer?</h3>
+            </div>
+            <div class="radio">
+              <input type="radio" name="q3" value="1"><label><img src="./assets/love.jpg"/></label>
+              <input type="radio" name="q3" value="2"><label><img src="./assets/money.jpg"/></label>
+              <input type="radio" name="q3" value="3"><label><img src="./assets/future.jpg"/></label>
+            </div>
+          </div>
+          <div id="question4">
+            <div class="well">
+              <h3>What face do you make when your code doesn't work?</h3>
+            </div>
+            <div class="radio">
+              <input type="radio" name="q4" value="1"><label><img src="./assets/cattears.jpg"/></label>
+              <input type="radio" name="q4" value="2"><label><img src="./assets/concerned.jpg"/></label>
+              <input type="radio" name="q4" value="3"><label><img src="./assets/kim.jpg"/></label>
+            </div>
+          </div>
+          <div id="question5">
+            <div class="well">
+              <h3>Pick one neccessary evil</h3>
+            </div>
+            <div class="radio">
+              <input type="radio" name="q5" value="1"><label><img src="./assets/twitter.png"/></label>
+              <input type="radio" name="q5" value="2"><label><img src="./assets/instagram.png"/></label>
+              <input type="radio" name="q5" value="3"><label><img src="./assets/facebook.jpg"/></label>
+            </div>
+          </div>
+          <div class="row">
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </div>
+        </form>
       </div>
-      </div>
-      <div id="question2">
-        <div class="well"><h3>What's currently on your TV?</h3></div>
-      <div class="radio">
-        <input type="radio" name="q2" value="1"><label><img src="./assets/mirror.png"/></label>
-        <input type="radio" name="q2" value="2"><label><img src="./assets/valley.jpg"/></label>
-        <input type="radio" name="q2" value="3"><label><img src="./assets/robot.jpg"/></label>
-      </div>
-    </div>
-      <div id="question3">
-        <div class="well"><h3>What motivated you to become a developer?</h3></div>
-      <div class="radio">
-        <input type="radio" name="q3" value="1"><label><img src="./assets/love.jpg"/></label>
-        <input type="radio" name="q3" value="2"><label><img src="./assets/money.jpg"/></label>
-        <input type="radio" name="q3" value="3"><label><img src="./assets/future.jpg"/></label>
-      </div>
-    </div>
-      <div id="question4">
-        <div class="well"><h3>What face do you make when your code doesn't work?</h3></div>
-      <div class="radio">
-        <input type="radio" name="q4" value="1"><label><img src="./assets/cattears.jpg"/></label>
-        <input type="radio" name="q4" value="2"><label><img src="./assets/concerned.jpg"/></label>
-        <input type="radio" name="q4" value="3"><label><img src="./assets/kim.jpg"/></label>
-      </div>
-    </div>
-      <div id="question5">
-        <div class="well"><h3>Pick one neccessary evil</h3></div>
-      <div class="radio">
-        <input type="radio" name="q5" value="1"><label><img src="./assets/twitter.png"/></label>
-        <input type="radio" name="q5" value="2"><label><img src="./assets/instagram.png"/></label>
-        <input type="radio" name="q5" value="3"><label><img src="./assets/facebook.jpg"/></label>
-      </div>
-    </div>
-    <div class="row">
-      <button type="submit" class="btn btn-dark">Submit</button>
-    </div>
-  </form>
-    </div>
     </div>
     <!-- quiz results -->
     <div id="ruby">
       <div class="row">
         <div class="col-md-6">
-      <div class="well well-md">
-      <h2>You got <strong>Ruby</strong></h2>
-      <iframe src="https://giphy.com/embed/H6DiscGyVNGBCOSCeE" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/roosterteeth-rooster-teeth-rwby-H6DiscGyVNGBCOSCeE">via GIPHY</a></p>
-      <h3><em>Based on your answers you are <strong>SUPER</strong> fun.</em></h3>
-    <p>Ruby developers find it fun to work with Ruby, and fun is a great motivator when learning to code. Ruby is a very high level language, which means Ruby abstracts away (i.e. handles for you) most of the complex details of the machine. Thus, you can quickly build something from scratch with less lines of code.</p>
+          <div class="well well-md">
+            <h2>You got <strong>Ruby</strong></h2>
+            <iframe src="https://giphy.com/embed/H6DiscGyVNGBCOSCeE" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/roosterteeth-rooster-teeth-rwby-H6DiscGyVNGBCOSCeE">via GIPHY</a></p>
+            <h3><em>Based on your answers you are <strong>SUPER</strong> fun.</em></h3>
+            <p>Ruby developers find it fun to work with Ruby, and fun is a great motivator when learning to code. Ruby is a very high level language, which means Ruby abstracts away (i.e. handles for you) most of the complex details of the machine. Thus, you can quickly build something from scratch with less lines of code.</p>
+          </div>
+          <button type="btn" class="retake">⟲ Retake</button>
+        </div>
+      </div>
     </div>
-    <button type="btn" class="retake">⟲ Retake</button>
-  </div>
-</div>
-</div>
-
     <div id="python">
       <div class="row">
         <div class="col-md-6">
-      <div class="well well-md">
-      <h2>You got <strong>Python</strong></h2>
-      <h3><em>Python would be perfect for you because based on your answers you are <strong>complicated</strong> but in a good way like Python!</em></h3>
-      <iframe src="https://giphy.com/embed/RGRR5C5Pa5v0I" width="480" height="225" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/green-ball-tree-RGRR5C5Pa5v0I">via GIPHY</a></p>
-      <p>Python is a high-level, interpreted and general-purpose dynamic programming language that focuses on code readability. The syntax in Python helps the programmers to do coding in fewer steps as compared to Java or C++. The Python is widely used in bigger organizations because of its multiple programming paradigms.</p>
+          <div class="well well-md">
+            <h2>You got <strong>Python</strong></h2>
+            <h3><em>Python would be perfect for you because based on your answers you are <strong>complicated</strong> but in a good way like Python!</em></h3>
+            <iframe src="https://giphy.com/embed/RGRR5C5Pa5v0I" width="480" height="225" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/green-ball-tree-RGRR5C5Pa5v0I">via GIPHY</a></p>
+            <p>Python is a high-level, interpreted and general-purpose dynamic programming language that focuses on code readability. The syntax in Python helps the programmers to do coding in fewer steps as compared to Java or C++. The Python is widely used in bigger organizations because of its multiple programming paradigms.</p>
+          </div>
+          <button type="btn" class="retake">⟲ Retake</button>
+        </div>
+      </div>
     </div>
-    <button type="btn" class="retake">⟲ Retake</button>
-  </div>
-</div>
-</div>
-
     <div id="js">
       <div class="row">
         <div class="col-md-6">
-      <div class="well well-md">
-      <h2>You got <strong>JavaScript</strong></h2>
-      <iframe src="https://giphy.com/embed/ZVik7pBtu9dNS" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/life-interesting-footage-ZVik7pBtu9dNS">via GIPHY</a></p>
-      <h3><em>Based on your answers you are a programmer <strong> of all trades.</strong></em></h3>
-      <p>JavaScript is one of the most popular programming languages in the world. Along with HTML and CSS, JavaScript forms the basis of front-end web development, allowing the creating of interactive elements. If you currently work for some sort of tech company in a non-technical role, you might find that a working knowledge of JavaScript can help you get a promotion. Even if you don’t have to actively work as a ‘developer’, the technical knowledge can come in useful from time to time.</p>
+          <div class="well well-md">
+            <h2>You got <strong>JavaScript</strong></h2>
+            <iframe src="https://giphy.com/embed/ZVik7pBtu9dNS" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/life-interesting-footage-ZVik7pBtu9dNS">via GIPHY</a></p>
+            <h3><em>Based on your answers you are a programmer <strong> of all trades.</strong></em></h3>
+            <p>JavaScript is one of the most popular programming languages in the world. Along with HTML and CSS, JavaScript forms the basis of front-end web development, allowing the creating of interactive elements. If you currently work for some sort of tech company in a non-technical role, you might find that a working knowledge of JavaScript can help you get a promotion. Even if you don’t have to actively work as a ‘developer’, the technical knowledge can come in useful from time to time.</p>
+          </div>
+          <button type="btn" class="retake">⟲ Retake</button>
+        </div>
+      </div>
     </div>
-        <button type="btn" class="retake">⟲ Retake</button>
-  </div>
-</div>
-</div>
-
   </body>
-<html>
+  <html>
